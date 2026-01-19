@@ -10,6 +10,7 @@ publish = "dist"
 [build.environment]
 NODE_VERSION = "20"
 NODE_ENV = "production"
+NPM_CONFIG_PRODUCTION = "false"
 
 # Redirects for client-side routing (required for React Router)
 [[redirects]]
