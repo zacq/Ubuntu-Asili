@@ -1,0 +1,7 @@
+{
+  "name": "Ubuntu Asili Africa",
+  "description": "A high-conversion platform for African American women seeking safe, guided pathways to land ownership and relocation in Africa.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
