@@ -2,7 +2,7 @@
 
 [build]
 # Build command - runs the Vite build
-command = "npm run build"
+command = "npm install && npm run build"
 # Directory to deploy - where Vite outputs the built files
 publish = "dist"
 
@@ -30,10 +30,7 @@ Cache-Control = "public, max-age=0, must-revalidate"
 
 # Context configuration for different environments
 [context.production]
-command = "npm run build"
-
-[context.development]
-command = "npm run dev"
+command = "npm install && npm run build"
 
 [context.deploy-preview]
-command = "npm run build"
+command = "npm install && npm run build"
