@@ -1,20 +1,20 @@
 
 import React from 'react';
-import { 
-  Plane, 
-  Users, 
-  Landmark, 
-  MapPin, 
-  Search, 
-  Calendar, 
-  CheckCircle, 
-  Home, 
-  ShieldCheck, 
-  Heart, 
-  Binoculars, 
-  Waves, 
-  Palmtree, 
-  Building2 
+import {
+  Plane,
+  Users,
+  Landmark,
+  MapPin,
+  Search,
+  Calendar,
+  CheckCircle,
+  Home,
+  ShieldCheck,
+  Heart,
+  Binoculars,
+  Waves,
+  Palmtree,
+  Building2
 } from 'lucide-react';
 
 export const COLORS = {
@@ -43,13 +43,13 @@ export const DESTINATIONS = [
   {
     title: 'Diani Coast',
     description: 'Pristine white sands and turquoise waters.',
-    image: 'https://images.unsplash.com/photo-1589979482810-69bf90e632b6?auto=format&fit=crop&q=80&w=800',
+    image: '/images/diani.jpg.png',
     tags: ['Beach', 'Relaxation']
   },
   {
     title: 'Nairobi',
     description: 'The vibrant "Green City in the Sun".',
-    image: 'https://images.unsplash.com/photo-1614359833911-597525389658?auto=format&fit=crop&q=80&w=800',
+    image: '/images/nairobi.jpg.png',
     tags: ['City', 'Culture']
   },
   {
@@ -73,7 +73,7 @@ export const EXPERIENCES = [
     duration: '10 Days',
     price: 'From $3,100',
     icon: <Users className="w-5 h-5" />,
-    image: 'https://images.unsplash.com/photo-1489440543227-a6d3d9369952?auto=format&fit=crop&q=80&w=800'
+    image: '/images/heritage.png.png'
   },
   {
     title: 'Coastal Retreat',
@@ -107,7 +107,7 @@ export const GUIDED_PATH = [
     title: 'Build Legacy',
     description: 'Secure your future with vetted property and lifelong community support.',
     icon: <ShieldCheck className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&q=80&w=800'
+    image: '/images/build-legacy.png'
   }
 ];
 
